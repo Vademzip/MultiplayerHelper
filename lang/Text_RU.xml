@@ -444,9 +444,9 @@
         <Replace Tag="LOC_MPH_TOURNAMENT_PHASE_0_HINT_TEXT" language="ru_RU">
             <Text>Steps: Ban Maps - Ban 6 Leaders - Pick Leaders 1 by 1 - Start Game/Change Slots</Text>
         </Replace>
-        <!-- <Replace Tag="LOC_MPH_TOURNAMENT_PHASE_0_HOST_HINT_TEXT" language="ru_RU"> -->
-            <!-- <Text>Select your drafting option in Game Setup, then press Launch to initiate the draft.[NEWLINE] You can press Reset at any time to reinitialize the draft and Skip to skip a step.[NEWLINE] This mod requires everyone to have subscribed on the Steam workshop to use the advanced Setup features. Downloading from the Host isn't sufficient. </Text> -->
-        <!-- </Replace> -->
+        <Replace Tag="LOC_MPH_TOURNAMENT_PHASE_0_HOST_HINT_TEXT" language="ru_RU">
+            <Text>Задайте опции драфта в настройках игры, затем нажмите кнопку Старт для инициации драфта.[NEWLINE]Вы можете нажать кнопку Сбросить в любой время для остановки драфта и кнопку Пропустить для пропуска текущего шага.[NEWLINE] Этот мод требует, чтобы каждый игрок подписался на него в Steam workshop и включил в настройках доп. контента ДО ПОДКЛЮЧЕНИЯ К ЛОББИ.</Text>
+        </Replace>
         <Replace Tag="LOC_MPH_VOTING_PHASE_0_TEXT" language="ru_RU">
             <Text>Драфт по голосованию: Пожалуйста, выберите вашу команду и займите правильный слот</Text>
         </Replace>
@@ -617,7 +617,7 @@
             <Text>Игроки постепенно выбывают из игры в зависимости от набранных ими очков, а часы неумолимо тикают... Испытание временем только что приобрело совершенно новый смысл!</Text>
         </Replace>
         <Replace Tag="LOC_MPH_RETIME_ADMIN_TEXT" Language="ru_RU">
-            <Text>ТАЙМЕР ВНЕЗАПНОЙ СМЕРТИ</Text>
+            <Text>Таймер внезапной смерти</Text>
         </Replace>
         <Replace Tag="LOC_MPH_RETIME_ADMIN_TOOLTIP" Language="ru_RU">
             <Text>Устанавливает время, оставшееся до выбывания игрока.</Text>
@@ -637,9 +637,9 @@
         <Replace Tag="LOC_GAME_MENU_RENAME_BUTTON" Language="ru_RU">
             <Text>Подтвердить имя</Text>
         </Replace>
-        <!-- <Replace Tag="LOC_MPH_EDIT_PLAYER_NAME_TT" Language="ru_RU"> -->
-            <!-- <Text>Click to change your name in this game.</Text> -->
-        <!-- </Replace> -->
+         <Replace Tag="LOC_MPH_EDIT_PLAYER_NAME_TT" Language="ru_RU"> 
+             <Text>Нажмите, чтобы поменять ваше имя в игре</Text> 
+         </Replace> 
         <Replace Tag="LOC_GAMEMODE_ANONYMOUS_NAME" Language="ru_RU">
             <Text>Анонимный режим</Text>
         </Replace>
@@ -659,19 +659,19 @@
             <Text>Нажмите, чтобы начать стадию драфта.</Text>
         </Replace>
         <Replace Tag="LOC_MPH_RESYNC_ADMIN_TEXT" language="ru_RU">
-            <Text>ОБЩАЯ РЕСИНХРОНИЗАЦИЯ</Text>
+            <Text>Общая ресинхронизация</Text>
         </Replace>
         <Replace Tag="LOC_MPH_RESYNC_ADMIN_TOOLTIP" language="ru_RU">
             <Text>Запускает автоматическую ресинхронизацию от всех игроков к хосту. Хост не должен снимать паузу во время этого процесса.</Text>
         </Replace>
         <Replace Tag="LOC_MPH_PAUSE_COUNDOWN_TEXT" language="ru_RU">
-            <Text>Обратный отсчёт</Text>
+            <Text>Обр. отсчёт</Text>
         </Replace>
         <Replace Tag="LOC_MPH_PAUSE_COUNDOWN_LABEL_TEXT" language="ru_RU">
             <Text>Игра возобновляется!</Text>
         </Replace>
         <Replace Tag="LOC_MPH_FORCEEND_ADMIN_TEXT" language="ru_RU">
-            <Text>ПРИНУДИТЕЛЬНОЕ ЗАВЕРШЕНИЕ ХОДА</Text>
+            <Text>Завершить всем ход</Text>
         </Replace>
         <Replace Tag="LOC_MPH_FORCEEND_ADMIN_TOOLTIP" language="ru_RU">
             <Text>Все игроки принудительно завершат свои ходы</Text>
@@ -683,7 +683,7 @@
             <Text>Все игроки будут пересинхронизированы с хостом. Вы уверены?</Text>
         </Replace>
         <Replace Tag="LOC_GAME_MENU_RESYNC_BUTTON" language="ru_RU">
-            <Text>Resync</Text>
+            <Text>Ресинхронизация</Text>
         </Replace>
         <Replace Tag="LOC_GAME_MENU_FORCEEND_TITLE" language="ru_RU">
             <Text>ПРИНУДИТЕЛЬНОЕ ЗАВЕРШЕНИЕ ХОДА</Text>
@@ -695,13 +695,13 @@
             <Text>Завершить ход</Text>
         </Replace>
         <Replace Tag="LOC_MPH_UI_REFRESH_TEXT" Language="ru_RU">
-            <Text>ПЕРЕЗАГРУЗКА ПОЛЬЗОВАТЕЛЬСКОГО ИНТЕРФЕЙСА</Text>
+            <Text>Перезагрузка UI</Text>
         </Replace>
         <Replace Tag="LOC_MPH_UI_REFRESH_TOOLTIP" Language="ru_RU">
             <Text>Жесткий сброс пользовательского интерфейса</Text>
         </Replace>
         <Replace Tag="LOC_GAME_MENU_UI_REFRESH_TITLE" Language="ru_RU">
-            <Text>ПЕРЕЗАГРУЗКА ПОЛЬЗОВАТЕЛЬСКОГО ИНТЕРФЕЙСА</Text>
+            <Text>Перезагрузка UI</Text>
         </Replace>
         <Replace Tag="LOC_GAME_MENU_UI_REFRESH_LABEL" Language="ru_RU">
             <Text>Вы уверены, что хотите сделать перезагрузку интерфейса?</Text>
@@ -727,9 +727,9 @@
         <!-- <Replace Tag="LOC_MPH_DRAFT_SLOT_ORDER_DESC" Language="ru_RU"> -->
             <!-- <Text>Тип драфта</Text> -->
         <!-- </Replace> -->
-        <!-- <Replace Tag="LOC_MPH_DRAFT_TIMER_DESC" Language="ru_RU"> -->
-            <!-- <Text>Untick to disabled the timer during drafting</Text> -->
-        <!-- </Replace> -->
+        <Replace Tag="LOC_MPH_DRAFT_TIMER_DESC" Language="ru_RU">
+            <Text>Уберите галку, чтобы отключить таймер во время драфта.</Text>
+        </Replace> 
         <Replace Tag="LOC_MPH_DRAFT_MAP_DESC" Language="ru_RU">
             <Text>Если выбрано, то стадия драфта начнётся с выбора карты из списка ниже</Text>
         </Replace>
@@ -757,7 +757,7 @@
             <Text>Командный драфт в два этапа с шестью банами</Text>
         </Replace>
         <Replace Tag="DRAFT_CWCT_DESC" Language="ru_RU">
-            <Text>Киберспортивная комбинированная фаза драфтов: 1) 6 Банов 2) 4 Выбора 3) 4 Бана 4) Оставшийся выбор</Text>
+            <Text>Киберспортивная комбинированная фаза драфтов: 1) 6 Банов 2) 4 Пика 3) 4 Бана 4) Оставшиеся пики</Text>
         </Replace>
 
 
@@ -781,13 +781,13 @@
             <Text>Для объявления войны необходимо либо сперва осудить противника либо использовать формальный повод для войны</Text>
         </Replace>
         <Replace Tag="LOC_MPH_NO_TRADING_FAVOR_NAME" Language="ru_RU">
-            <Text>Без торговли дипломатическим влиянием</Text>
+            <Text>Без торговли дип. влиянием</Text>
         </Replace>
         <Replace Tag="LOC_MPH_NO_TRADING_GOLD_NAME" Language="ru_RU">
             <Text>Без торговли золотом</Text>
         </Replace>
         <Replace Tag="LOC_MPH_NO_TRADING_STRATEGICS_NAME" Language="ru_RU">
-            <Text>Без торговли стратегическими ресурсами</Text>
+            <Text>Без торговли страт. ресурсами</Text>
         </Replace>
         <Replace Tag="LOC_MPH_NO_TRADING_LUXURIES_NAME" Language="ru_RU">
             <Text>Без торговли редкими ресурсами</Text>
@@ -864,7 +864,7 @@
             <Text>Убирает возможность заключать научный союз с другими цивилизациями.</Text>
         </Replace>
         <Replace Tag="MPH_PRESET_NAME" Language="ru_RU">
-            <Text>Предустановка</Text>
+            <Text>Пресет</Text>
         </Replace>
         <Replace Tag="MPH_PRESET_NONE_NAME" Language="ru_RU">
             <Text>Отсутствует</Text>
@@ -882,7 +882,7 @@
             <Text>CPL Premier League</Text>
         </Replace>
         <Replace Tag="MPH_PRESET_CPLSQUADRON_DESC" language="ru_RU">
-            <Text>Premier League 4 на 4 с драфтом</Text>
+            <Text>Игра Premier League 4 на 4 с драфтом</Text>
         </Replace>
         <Replace Tag="MPH_PRESET_PHYPHY_NAME" Language="ru_RU">
             <Text>Блиц 1 на 1</Text>
